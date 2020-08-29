@@ -5,7 +5,7 @@ const IMG_NUMBER = 5;
 function removeWait(image) {
   setTimeout(function () {
     image.classList.remove("wait");
-  }, 50);
+  }, 150);
 }
 
 function paintImage(imgNumber) {
