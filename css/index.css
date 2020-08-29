@@ -1,13 +1,10 @@
 body {
   background-color: skyblue;
+  color: #34495e;
 }
 
 .btn {
   cursor: pointer;
-}
-
-body {
-  color: #34495e;
 }
 
 .clicked {
