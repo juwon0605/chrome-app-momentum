@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something</title>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/index.css" />
+    <title>Momentum</title>
   </head>
 
   <body>
-    <div class="js-clock">
-      <h1 class="js-title">00:00</h1>
+    <div class="js-clock clock">
+      <h1 class="js-title clock-time">00:00</h1>
     </div>
 
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name?" />
+    <form class="js-form ask-name toDo">
+      <input
+        class="ask-name__text"
+        type="text"
+        placeholder="What is your name?"
+      />
     </form>
 
-    <h4 class="js-greetings greetings"></h4>
+    <h4 class="js-greetings greeting"></h4>
 
     <form class="js-toDoForm">
       <input type="text" placeholder="Write a to do" />
