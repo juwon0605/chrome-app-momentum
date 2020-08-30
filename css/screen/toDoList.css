@@ -1,9 +1,12 @@
 .toDoList {
+  /* box-sizing: border-box; */
 }
 
 .toDoList__column {
-  position: relative;
+  display: flex;
+  align-items: center;
   font-size: 30px;
+  margin: 5px;
 }
 
 .toDoList__column span {
@@ -12,9 +15,6 @@
 .toDoList__column button {
   border: none;
   background-color: var(--invisible);
-
-  position: absolute;
-  bottom: 6px;
 }
 
 .toDoList__column button:hover {

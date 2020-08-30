@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
+@import "reset.css";
+@import "variables.css";
+
 /* Screen */
 @import "screen/background.css";
 @import "screen/clock.css";
 @import "screen/greeting.css";
 @import "screen/toDoForm.css";
 @import "screen/toDoList.css";
+@import "screen/weather.css";
 
 body {
   color: white;
@@ -21,21 +25,4 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.btn {
-  cursor: pointer;
-}
-
-.clicked {
-  color: #7f8c8d;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
