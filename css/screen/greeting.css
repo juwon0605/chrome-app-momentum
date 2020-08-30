@@ -1,0 +1,48 @@
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.ask-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.ask-name input {
+  border: none;
+  padding: 10px 0px;
+  background-color: var(--invisible);
+
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+  border-bottom: 2px solid rgba(225, 225, 225, 1);
+  transition: border-color 0.3s ease-in-out;
+
+  width: 80%;
+}
+
+.ask-name input:focus {
+  outline: none;
+  border-color: rgba(225, 225, 225, 0.5);
+}
+
+/* after쓸 줄 모르겠음 */
+/* .ask-name input::after {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 2px solid rgba(225, 225, 225, 1);
+  margin: 10px 0px;
+} */
+
+.ask-name input::placeholder {
+  color: white;
+}

@@ -1,0 +1,4 @@
+:root {
+  --invisible: rgba(0, 0, 0, 0);
+  --focused: #63cdda;
+}
