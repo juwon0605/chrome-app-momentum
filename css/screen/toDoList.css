@@ -1,0 +1,22 @@
+.toDoList {
+}
+
+.toDoList__column {
+  position: relative;
+  font-size: 30px;
+}
+
+.toDoList__column span {
+}
+
+.toDoList__column button {
+  border: none;
+  background-color: var(--invisible);
+
+  position: absolute;
+  bottom: 6px;
+}
+
+.toDoList__column button:hover {
+  cursor: pointer;
+}

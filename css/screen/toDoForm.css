@@ -1,0 +1,37 @@
+.toDoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.toDoForm input {
+  border: none;
+  padding: 10px 0px;
+  background-color: var(--invisible);
+
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+  border-bottom: 2px solid rgba(225, 225, 225, 1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.firstWidth {
+  width: 80%;
+}
+
+.toDoForm input:focus {
+  outline: none;
+  border-color: rgba(225, 225, 225, 0.5);
+}
+
+.toDoForm input::placeholder {
+  color: white;
+}
+
+.changeWidth {
+  width: 60%;
+}
